@@ -1,7 +1,12 @@
 # Notes on Immunology-related tools and databases
 
+## `web`
+
 - `Haemosphere` - mostly murine immune cell signatures, downloadable data. http://haemosphere.org/datasets/show
  
+- `TCIA` - The Cancer Immunome Atlas, https://tcia.at/home. Immunophenograms, cell type fraction table of TCGA samples. Survival analysis based on immune cell signatures. All analyses are on TCGA data.
+
+
 ## `data`
 
 - `EINAV_INTERFERON_SIGNATURE_IN_CANCER.txt` - A gene expression signature found in a subset of cancer patients suggestive of a deregulated immune or inflammatory response. http://software.broadinstitute.org/gsea/msigdb/geneset_page.jsp?geneSetName=EINAV_INTERFERON_SIGNATURE_IN_CANCER
@@ -36,8 +41,4 @@ The log2-scaled reference data files. http://csgi.tau.ac.il/ImmQuant/download.ht
 
 Download from http://csgi.tau.ac.il/ImmQuant/download.html, run as `java -jar ImmQuant.jar`
 
-
-## `web`
-
-- `TCIA` - The Cancer Immunome Atlas, https://tcia.at/home. Immunophenograms, cell type fraction table of TCGA samples. Survival analysis based on immune cell signatures. All analyses are on TCGA data.
 
