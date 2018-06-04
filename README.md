@@ -22,6 +22,12 @@ Data from Azizi, Elham, Ambrose J. Carr, George Plitas, Andrew E. Cornish, Cathe
 
 - `221994-2.xlsx` - Table S4. List of gene signatures (sources listed in STAR Methods)
 
+## `Cibersort`
+
+Data from Newman, Aaron M., Chih Long Liu, Michael R. Green, Andrew J. Gentles, Weiguo Feng, Yue Xu, Chuong D. Hoang, Maximilian Diehn, and Ash A. Alizadeh. “Robust Enumeration of Cell Subsets from Tissue Expression Profiles.” Nature Methods 12, no. 5 (May 2015): 453–57. https://doi.org/10.1038/nmeth.3337. - CIBERSORT - cell type identification. Support Vector Regression. Methods description. Non-log-linear space. p-value for the overall goodness of deconvolution (H0 - no cell types are present in a given gene expression profile), also Pearson and RMSE for estimating goodness of fit. https://cibersort.stanford.edu/index.php
+
+- `LM22.txt` - 547 genes X 22 immune cell types matrix of cell type specific gene signatures
+
 
 ## `ESTIMATE`
 
