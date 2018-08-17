@@ -1,9 +1,9 @@
 # Notes on Immunology-related tools and databases
 
 * [Notes](#notes)
-* [Data](#`data`)
-* [Web-based tools](#`web`)
-* [Stand-alone tools]
+* [Data](#-data-)
+* [Web-based tools](#web)
+* [Stand-alone tools](#tools)
 
 ## Notes
 
