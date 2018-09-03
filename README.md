@@ -1,5 +1,7 @@
 # Notes on Immunology-related tools and databases
 
+Mostly cancer-related.
+
 * [Notes](#notes)
 * [Data](#data)
 * [Web-based tools](#web)
