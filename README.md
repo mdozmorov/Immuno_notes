@@ -2,10 +2,28 @@
 
 Mostly cancer-related.
 
+* [Web-based tools](#web-based-tools)
+* [Stand-alone tools](#stand-alone-tools)
 * [Notes](#notes)
 * [Data](#data)
-* [Web-based tools](#web)
-* [Stand-alone tools](#tools)
+
+
+## Web-based tools
+
+- `Haemosphere` - mostly murine immune cell signatures, downloadable data. http://haemosphere.org/datasets/show
+ 
+- `TCIA` - The Cancer Immunome Atlas, https://tcia.at/home. Immunophenograms, cell type fraction table of TCGA samples. Survival analysis based on immune cell signatures. All analyses are on TCGA data.
+
+- `TIMER` - immune cell-oriented exploration of TCGA cancers. prehensive resource for systematical analysis of immune infiltrates across diverse cancer types. Exploring the abundances of six immune infiltrates (B cells, CD4+ T cells, CD8+ T cells, Neutrphils, Macrophages and Dendritic cells) with gene expression, survival, mutations, copy number variants and more. Six analysis modules: Gene correlation with immune cell proportions, immune proportions and survival, and mutations, and somatic copy number alterations, simple boxplot expression of a gene across all cancer/normal samples, correlation between two genes adjusted for tumor purity or age, deconvolution of user-provided gene expression, estimation of immune proportions in all TCGA samples. https://cistrome.shinyapps.io/timer/. Video tutorial at https://youtu.be/94v8XboCrXU
+    - - Li, Taiwen, Jingyu Fan, Binbin Wang, Nicole Traugh, Qianming Chen, Jun S. Liu, Bo Li, and X. Shirley Liu. “TIMER: A Web Server for Comprehensive Analysis of Tumor-Infiltrating Immune Cells.” Cancer Research 77, no. 21 (November 1, 2017): e108–10. https://doi.org/10.1158/0008-5472.CAN-17-0307. 
+
+
+## Stand-alone tools
+
+- `ImmQuant` - Deconvolution of human/mouse gene expression, output - immune cell proportions. Download from http://csgi.tau.ac.il/ImmQuant/download.html, run as `java -jar ImmQuant.jar`
+
+
+
 
 ## Notes
 
@@ -63,21 +81,5 @@ The log2-scaled reference data files. http://csgi.tau.ac.il/ImmQuant/download.ht
 - Finotello, Francesca, Clemens Mayer, Christina Plattner, Gerhard Laschober, Dietmar Rieder, Hubert Hackl, Anne Krogsdam, et al. “QuanTIseq: Quantifying Immune Contexture of Human Tumors.” BioRxiv, January 1, 2017. https://doi.org/10.1101/223180. https://www.biorxiv.org/content/early/2017/11/22/223180
 
 - `223180-4.xlsx` - Immune cell signatures, 170 genes x 10 immune cell types. [Source](https://www.biorxiv.org/highwire/filestream/68173/field_highwire_adjunct_files/3/223180-4.xlsx)
-
-
-## `web`
-
-- `Haemosphere` - mostly murine immune cell signatures, downloadable data. http://haemosphere.org/datasets/show
- 
-- `TCIA` - The Cancer Immunome Atlas, https://tcia.at/home. Immunophenograms, cell type fraction table of TCGA samples. Survival analysis based on immune cell signatures. All analyses are on TCGA data.
-
-- `TIMER` - immune cell-oriented exploration of TCGA cancers. Six analysis modules: Gene correlation with immune cell proportions, immune proportions and survival, and mutations, and somatic copy number alterations, simple boxplot expression of a gene across all cancer/normal samples, correlation between two genes adjusted for tumor purity or age, deconvolution of user-provided gene expression, estimation of immune proportions in all TCGA samples. https://cistrome.shinyapps.io/timer/ 
-
-
-## `tools`
-
-#### `ImmQuant`
-
-Download from http://csgi.tau.ac.il/ImmQuant/download.html, run as `java -jar ImmQuant.jar`
 
 
