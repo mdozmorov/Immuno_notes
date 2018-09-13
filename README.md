@@ -15,6 +15,8 @@ Mostly cancer-related.
 
 ## Web-based tools
 
+- `DICE` - Database of Immune Cell eQTLs, Expression, Epigenomics. https://dice-database.org/
+
 - `Haemosphere` - mostly murine immune cell signatures, downloadable data. http://haemosphere.org/datasets/show
  
 - `TCIA` - The Cancer Immunome Atlas, https://tcia.at/home. Immunophenograms, cell type fraction table of TCGA samples. Survival analysis based on immune cell signatures. All analyses are on TCGA data.
