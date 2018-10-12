@@ -32,13 +32,13 @@ Mostly cancer-related.
 
 
 
-## `data`
+## Data
 
-- `EINAV_INTERFERON_SIGNATURE_IN_CANCER.txt` - A gene expression signature found in a subset of cancer patients suggestive of a deregulated immune or inflammatory response. http://software.broadinstitute.org/gsea/msigdb/geneset_page.jsp?geneSetName=EINAV_INTERFERON_SIGNATURE_IN_CANCER
+- `data/EINAV_INTERFERON_SIGNATURE_IN_CANCER.txt` - A gene expression signature found in a subset of cancer patients suggestive of a deregulated immune or inflammatory response. http://software.broadinstitute.org/gsea/msigdb/geneset_page.jsp?geneSetName=EINAV_INTERFERON_SIGNATURE_IN_CANCER
 
-- `Immune_signatures.xlsx` - Table S4 from [https://doi.org/10.1016/j.cell.2018.05.060](https://www.sciencedirect.com/science/article/pii/S0092867418307232). List of gene signatures for "Treg", "CD8 T Cell Activation", "Anti-inflammatory", "Anergy", "Pro inflammatory", "Lipid mediators", "Glycolysis", "TCA cycle", "Pentose Phosphate Pathway", "Glycogen Metabolism", "Glucose Deprivation", "M1 Macrophage Polarization", "M2 Macrophage Polarization", "Cytolytics effector pathway", "Type I Interferon response", "Type II Interferon Response", "Hypoxia/HIF regulated", "TCell Terminal Differentiation", "G1/S", "G2/M". Sheets 2 and 3 - macrophage M1 and M2 (suppressive) signatures.
+- `data/Immune_signatures.xlsx` - Table S4 from [https://doi.org/10.1016/j.cell.2018.05.060](https://www.sciencedirect.com/science/article/pii/S0092867418307232). List of gene signatures for "Treg", "CD8 T Cell Activation", "Anti-inflammatory", "Anergy", "Pro inflammatory", "Lipid mediators", "Glycolysis", "TCA cycle", "Pentose Phosphate Pathway", "Glycogen Metabolism", "Glucose Deprivation", "M1 Macrophage Polarization", "M2 Macrophage Polarization", "Cytolytics effector pathway", "Type I Interferon response", "Type II Interferon Response", "Hypoxia/HIF regulated", "TCell Terminal Differentiation", "G1/S", "G2/M". Sheets 2 and 3 - macrophage M1 and M2 (suppressive) signatures.
 
-- `TCGA_immune_classification.xlsx` - Table S1. PanImmune Feature Matrix of Immune Characteristics. TCGA sample IDs, clinical characteristice, scores for key immune charactics, six immune signatures, individual cell types. [Source](https://www.cell.com/cms/10.1016/j.immuni.2018.03.023/attachment/49497a4e-cf22-46fe-b33e-27b91efae222/mmc2.xlsx)
+- `data/TCGA_immune_classification.xlsx` - Table S1. PanImmune Feature Matrix of Immune Characteristics. TCGA sample IDs, clinical characteristice, scores for key immune charactics, six immune signatures, individual cell types. [Source](https://www.cell.com/cms/10.1016/j.immuni.2018.03.023/attachment/49497a4e-cf22-46fe-b33e-27b91efae222/mmc2.xlsx)
     - Thorsson, Vésteinn, David L. Gibbs, Scott D. Brown, Denise Wolf, Dante S. Bortone, Tai-Hsien Ou Yang, Eduard Porta-Pardo, et al. “The Immune Landscape of Cancer.” Immunity 48, no. 4 (April 2018): 812-830.e14. https://doi.org/10.1016/j.immuni.2018.03.023.
 
 #### BRCA
