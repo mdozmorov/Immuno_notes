@@ -15,6 +15,9 @@ Mostly cancer-related.
 
 ## Web-based tools
 
+- `ABIS-seq` - ABsolute Immune Signal (ABIS) deconvolution, Shiny app https://giannimonaco.shinyapps.io/ABIS/ and local installationm https://github.com/giannimonaco/ABIS.
+    - Monaco, Gianni, Bernett Lee, Weili Xu, Seri Mustafah, You Yi Hwang, Christophe Carré, Nicolas Burdin, et al. “RNA-Seq Signatures Normalized by MRNA Abundance Allow Absolute Deconvolution of Human Immune Cell Types.” Cell Reports 26, no. 6 (February 2019): 1627-1640.e7. https://doi.org/10.1016/j.celrep.2019.01.041.
+
 - `DICE` - Database of Immune Cell eQTLs, Expression, Epigenomics. https://dice-database.org/
 
 - `Haemosphere` - mostly murine immune cell signatures, downloadable data. http://haemosphere.org/datasets/show
@@ -35,6 +38,9 @@ Mostly cancer-related.
 ## Data
 
 - Kelly A. Zalocusky et al., “The 10,000 Immunomes Project: Building a Resource for Human Immunology,” Cell Reports 25, no. 2 (October 2018): 513-522.e3, https://doi.org/10.1016/j.celrep.2018.09.021.- 10K immunomes project - immunology reference dataset from 83 studies, 10 data types (CyTOF, proteomics, gene expression, others). Formatted (standard units of measurement) and normalized (batch-corrected, ComBat) data for visualization and download. http://10kimmunomes.org/
+
+- `data/29_signatures.xlsx` - [Table S5](https://www.cell.com/cell-reports/fulltext/S2211-1247(19)30059-2#secsectitle0260). Well-Conditioned Signature Matrices for RNA-Seq (ABIS-Seq) and Microarray (ABIS-Microarray) Deconvolution.
+    - Monaco, Gianni, Bernett Lee, Weili Xu, Seri Mustafah, You Yi Hwang, Christophe Carré, Nicolas Burdin, et al. “RNA-Seq Signatures Normalized by MRNA Abundance Allow Absolute Deconvolution of Human Immune Cell Types.” Cell Reports 26, no. 6 (February 2019): 1627-1640.e7. https://doi.org/10.1016/j.celrep.2019.01.041. - Expression signatures of 29 immune subsets (FACS sorted). Modules of co-expressed, housekeeping genes (Table S3). Their robust normalization method (RLM) better suited for normalizing heterogeneous cell populations. Deconvolution for PBMC transcriptomic data. RNA-seq (ABIS-seq, 1296 genes) and microarray (ABIS-microarray, 819 genes) deconvolution panels. Outperforms five other methods (LM, non-negative LM, RLM, QP, CIBERSORT).TPM download at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE107011. 
 
 - `data/EINAV_INTERFERON_SIGNATURE_IN_CANCER.txt` - A gene expression signature found in a subset of cancer patients suggestive of a deregulated immune or inflammatory response. http://software.broadinstitute.org/gsea/msigdb/geneset_page.jsp?geneSetName=EINAV_INTERFERON_SIGNATURE_IN_CANCER
 
