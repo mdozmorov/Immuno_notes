@@ -12,13 +12,14 @@ Mostly cancer-related.
   * [quanTIseq](#quantiseq)
 * [Notes](#notes)
 
+- Sturm, Gregor, Francesca Finotello, Florent Petitprez, Jitao David Zhang, Jan Baumbach, Wolf H Fridman, Markus List, and Tatsiana Aneichyk. “Comprehensive Evaluation of Computational Cell-Type Quantification Methods for Immuno-Oncology.” BioRxiv, January 27, 2019. https://doi.org/10.1101/463828. - Review and benchmarking of 7 immune deconvolution tools. Table 1 - overview of deconvolution methods, Table 2 - recommendations for different immune cell types. Using mix of gene expression from known proportions and types of single cells, mean expression. Access to the methods is implemented in  https://grst.github.io/immunedeconv/
 
 ## Web-based tools
 
 - `ABIS-seq` - ABsolute Immune Signal (ABIS) deconvolution, Shiny app https://giannimonaco.shinyapps.io/ABIS/ and local installationm https://github.com/giannimonaco/ABIS.
     - Monaco, Gianni, Bernett Lee, Weili Xu, Seri Mustafah, You Yi Hwang, Christophe Carré, Nicolas Burdin, et al. “RNA-Seq Signatures Normalized by MRNA Abundance Allow Absolute Deconvolution of Human Immune Cell Types.” Cell Reports 26, no. 6 (February 2019): 1627-1640.e7. https://doi.org/10.1016/j.celrep.2019.01.041.
 
-- Brain immune atlas scRNA-seq resource. Border-associated macrophages from discrete brain compartments, tissue-specific transcriptional signatures. http://www.brainimmuneatlas.org/index.php, https://github.com/saeyslab/brainimmuneatlas/
+- Brain immune atlas scRNA-seq resource. Border-associated macrophages from discrete mouse brain compartments, tissue-specific transcriptional signatures. http://www.brainimmuneatlas.org/index.php, https://github.com/saeyslab/brainimmuneatlas/
     - Van Hove, Hannah, Liesbet Martens, Isabelle Scheyltjens, Karen De Vlaminck, Ana Rita Pombo Antunes, Sofie De Prijck, Niels Vandamme, et al. “A Single-Cell Atlas of Mouse Brain Macrophages Reveals Unique Transcriptional Identities Shaped by Ontogeny and Tissue Environment.” Nature Neuroscience, May 6, 2019. https://doi.org/10.1038/s41593-019-0393-4.
 
 - `DICE` - Database of Immune Cell eQTLs, Expression, Epigenomics. https://dice-database.org/
