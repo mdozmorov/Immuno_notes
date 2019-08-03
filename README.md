@@ -41,6 +41,9 @@ Mostly cancer-related.
 
 ## Data
 
+- `CellMaker` - cell type-specific markers, human, mouse, single-cell data. Browse and download at http://bio-bigdata.hrbmu.edu.cn/CellMarker/download.jsp, enrichment analysis at  https://yulab-smu.github.io/clusterProfiler-book/chapter3.html#cell-marker
+    - Zhang, Xinxin, Yujia Lan, Jinyuan Xu, Fei Quan, Erjie Zhao, Chunyu Deng, Tao Luo, et al. “CellMarker: A Manually Curated Resource of Cell Markers in Human and Mouse.” Nucleic Acids Research 47, no. D1 (January 8, 2019): D721–28. https://doi.org/10.1093/nar/gky900.
+
 - Kelly A. Zalocusky et al., “The 10,000 Immunomes Project: Building a Resource for Human Immunology,” Cell Reports 25, no. 2 (October 2018): 513-522.e3, https://doi.org/10.1016/j.celrep.2018.09.021.- 10K immunomes project - immunology reference dataset from 83 studies, 10 data types (CyTOF, proteomics, gene expression, others). Formatted (standard units of measurement) and normalized (batch-corrected, ComBat) data for visualization and download. http://10kimmunomes.org/
 
 - `data/29_signatures.xlsx` - [Table S5](https://www.cell.com/cell-reports/fulltext/S2211-1247(19)30059-2#secsectitle0260). Well-Conditioned Signature Matrices for RNA-Seq (ABIS-Seq) and Microarray (ABIS-Microarray) Deconvolution.
