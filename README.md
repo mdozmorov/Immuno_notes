@@ -2,8 +2,9 @@
 
 Mostly cancer-related.
 
-* [Web-based tools](#web-based-tools)
-* [Stand-alone tools](#stand-alone-tools)
+* [Deconvolution](#deconvolution)
+  * [Web-based tools](#web-based-tools)
+  * [Stand-alone tools](#stand-alone-tools)
 * [Data](#data)
   * [BRCA](#brca)
   * [Cibersort](#cibersort)
@@ -12,9 +13,11 @@ Mostly cancer-related.
   * [quanTIseq](#quantiseq)
 * [Notes](#notes)
 
+## Deconvolution
+
 - Sturm, Gregor, Francesca Finotello, Florent Petitprez, Jitao David Zhang, Jan Baumbach, Wolf H Fridman, Markus List, and Tatsiana Aneichyk. “Comprehensive Evaluation of Computational Cell-Type Quantification Methods for Immuno-Oncology.” BioRxiv, January 27, 2019. https://doi.org/10.1101/463828. - Review and benchmarking of 7 immune deconvolution tools. Table 1 - overview of deconvolution methods, Table 2 - recommendations for different immune cell types. Using mix of gene expression from known proportions and types of single cells, mean expression. Access to the methods is implemented in  https://grst.github.io/immunedeconv/
 
-## Web-based tools
+### Web-based tools
 
 - `ABIS-seq` - ABsolute Immune Signal (ABIS) deconvolution, Shiny app https://giannimonaco.shinyapps.io/ABIS/ and local installationm https://github.com/giannimonaco/ABIS.
     - Monaco, Gianni, Bernett Lee, Weili Xu, Seri Mustafah, You Yi Hwang, Christophe Carré, Nicolas Burdin, et al. “RNA-Seq Signatures Normalized by MRNA Abundance Allow Absolute Deconvolution of Human Immune Cell Types.” Cell Reports 26, no. 6 (February 2019): 1627-1640.e7. https://doi.org/10.1016/j.celrep.2019.01.041.
@@ -32,7 +35,10 @@ Mostly cancer-related.
     - Li, Taiwen, Jingyu Fan, Binbin Wang, Nicole Traugh, Qianming Chen, Jun S. Liu, Bo Li, and X. Shirley Liu. “TIMER: A Web Server for Comprehensive Analysis of Tumor-Infiltrating Immune Cells.” Cancer Research 77, no. 21 (November 1, 2017): e108–10. https://doi.org/10.1158/0008-5472.CAN-17-0307. 
 
 
-## Stand-alone tools
+### Stand-alone tools
+
+- `MIXTURE` - an R package and a Shiny app to deconvolve cell proportions, Based on Support Vector Regression with a noise-constrained recursive feature selection. Compared with ABBAS, ABIS, CIBERSORT, DTANGLE, it detects less cell types, avoids overestimation of noisy detections. https://github.com/elmerfer/MIXTURE.App
+    - Fernandez, Elmer, Yamil D Mahmoud, Florencia Veigas, Dario Rocha, Monica Balzarini, Hugo D Lujan, Gabriel A Rabinovich, and Maria Romina Girotti. “MIXTURE: An Improved Algorithm for Immune Tumor Microenvironment Estimation Based on Gene Expression Data.” BioRxiv, August 7, 2019. https://doi.org/10.1101/726562.
 
 - `ImmQuant` - Deconvolution of human/mouse gene expression, output - immune cell proportions. Download from http://csgi.tau.ac.il/ImmQuant/download.html, run as `java -jar ImmQuant.jar`
 
