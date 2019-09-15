@@ -21,6 +21,13 @@ Mostly cancer-related.
 - `Linseed` - Mathematically elegant approach for cell type deconvolution when the number of cell types and cell signatures are unknown (Methods). Based on mutual linearity of cell type-specific genes. Mixed gene expression profiles form a simplex structure in the normalized sample-specific expression space, with corners representing normalized cell proportions. Implemented in R, Linseed (LINear Subspace identification for gene Expresion Deconvolution) is a package that provides tools and interface to explore gene expression datasets in linear space and perform complete gene expression deconvolution. https://github.com/ctlab/linseed
     - Zaitsev, Konstantin, Monika Bambouskova, Amanda Swain, and Maxim N. Artyomov. “Complete Deconvolution of Cellular Mixtures Based on Linearity of Transcriptional Signatures.” Nature Communications 10, no. 1 (May 17, 2019): 2209. https://doi.org/10.1038/s41467-019-09990-5.
 
+- `MuSiC` - cell type deconvolution method to use scRNA-seq data (pre-determined cell types) to deconvolve bulk RNA-seq data. Gene weighting to prioritize stable and reliably expressed genes to build cell signatures. Compared with CIBERSORT, Nonnegative least squares (NNLS), BSEQ-sc. https://github.com/xuranw/MuSiC
+    - Wang, Xuran, Jihwan Park, Katalin Susztak, Nancy R. Zhang, and Mingyao Li. “Bulk Tissue Cell Type Deconvolution with Multi-Subject Single-Cell Expression Reference.” Nature Communications 10, no. 1 (December 2019). https://doi.org/10.1038/s41467-018-08023-x.
+
+- `MethylCIBERSORT` - methylation-based cell type deconvolution, using CIBERSORT model, reformatting methylation matrices for it. https://zenodo.org/record/1298968#.W9-iaHpKj-Y
+    - Chakravarthy, Ankur, Andrew Furness, Kroopa Joshi, Ehsan Ghorani, Kirsty Ford, Matthew J. Ward, Emma V. King, et al. “Pan-Cancer Deconvolution of Tumour Composition Using DNA Methylation.” Nature Communications 9, no. 1 (December 2018). https://doi.org/10.1038/s41467-018-05570-1.
+
+
 - `ImmQuant` - Deconvolution of human/mouse gene expression, output - immune cell proportions. Download from http://csgi.tau.ac.il/ImmQuant/download.html, run as `java -jar ImmQuant.jar`
 
 ### Web-based tools
