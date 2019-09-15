@@ -32,6 +32,9 @@ Mostly cancer-related.
 - `MIXTURE` - an R package and a Shiny app to deconvolve cell proportions, Based on Support Vector Regression with a noise-constrained recursive feature selection. Compared with ABBAS, ABIS, CIBERSORT, DTANGLE, it detects less cell types, avoids overestimation of noisy detections. https://github.com/elmerfer/MIXTURE.App
     - Fernandez, Elmer, Yamil D Mahmoud, Florencia Veigas, Dario Rocha, Monica Balzarini, Hugo D Lujan, Gabriel A Rabinovich, and Maria Romina Girotti. “MIXTURE: An Improved Algorithm for Immune Tumor Microenvironment Estimation Based on Gene Expression Data.” BioRxiv, August 7, 2019. https://doi.org/10.1101/726562.
 
+- `Linseed` - Mathematically elegant approach for cell type deconvolution when the number of cell types and cell signatures are unknown (Methods). Based on mutual linearity of cell type-specific genes. Mixed gene expression profiles form a simplex structure in the normalized sample-specific expression space, with corners representing normalized cell proportions. Implemented in R, Linseed (LINear Subspace identification for gene Expresion Deconvolution) is a package that provides tools and interface to explore gene expression datasets in linear space and perform complete gene expression deconvolution. https://github.com/ctlab/linseed
+    - Zaitsev, Konstantin, Monika Bambouskova, Amanda Swain, and Maxim N. Artyomov. “Complete Deconvolution of Cellular Mixtures Based on Linearity of Transcriptional Signatures.” Nature Communications 10, no. 1 (May 17, 2019): 2209. https://doi.org/10.1038/s41467-019-09990-5.
+
 - `ImmQuant` - Deconvolution of human/mouse gene expression, output - immune cell proportions. Download from http://csgi.tau.ac.il/ImmQuant/download.html, run as `java -jar ImmQuant.jar`
 
 
