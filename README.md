@@ -13,6 +13,8 @@ Mostly cancer-related.
 
 - Sturm, Gregor, Francesca Finotello, Florent Petitprez, Jitao David Zhang, Jan Baumbach, Wolf H Fridman, Markus List, and Tatsiana Aneichyk. “Comprehensive Evaluation of Computational Cell-Type Quantification Methods for Immuno-Oncology.” BioRxiv, January 27, 2019. https://doi.org/10.1101/463828. - Review and benchmarking of 7 immune deconvolution tools. Table 1 - overview of deconvolution methods, Table 2 - recommendations for different immune cell types. Using mix of gene expression from known proportions and types of single cells, mean expression. Access to the methods is implemented in  https://grst.github.io/immunedeconv/
 
+- Teschendorff, Andrew E, and Shijie C Zheng. “Cell-Type Deconvolution in Epigenome-Wide Association Studies: A Review and Recommendations.” Epigenomics, March 14, 2017. https://doi.org/10.2217/epi-2016-0153. - Deconvolution using methylation profiles. Reference-free and reference-based. Table 1 overview of published methods. Description of Houseman algorithm, CIBERSORT. Problems with reference signatures. SVA performs well. Methylation is highly tissue-specific.
+
 ### Stand-alone tools
 
 - `MIXTURE` - an R package and a Shiny app to deconvolve cell proportions, Based on Support Vector Regression with a noise-constrained recursive feature selection. Compared with ABBAS, ABIS, CIBERSORT, DTANGLE, it detects less cell types, avoids overestimation of noisy detections. https://github.com/elmerfer/MIXTURE.App
