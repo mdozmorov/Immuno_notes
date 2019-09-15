@@ -6,6 +6,7 @@ Mostly cancer-related.
   * [Stand-alone tools](#stand-alone-tools)
   * [Web-based tools](#web-based-tools)
 * [Signatures](#signatures)
+* [Purity](#purity)
 * [Data folder](#data-folder)
 * [Misc Notes](#misc-notes)
 
@@ -46,9 +47,6 @@ Mostly cancer-related.
 - `CIBERSORT` - cell type identification. Support Vector Regression. Excellent methods description. Non-log-linear space. p-value for the overall goodness of deconvolution (H0 - no cell types are present in a given gene expression profile), also Pearson and RMSE for estimating goodness of fit. References to datasets for benchmarking. https://cibersort.stanford.edu/index.php
     - Newman, Aaron M., Chih Long Liu, Michael R. Green, Andrew J. Gentles, Weiguo Feng, Yue Xu, Chuong D. Hoang, Maximilian Diehn, and Ash A. Alizadeh. “Robust Enumeration of Cell Subsets from Tissue Expression Profiles.” Nature Methods 12, no. 5 (May 2015): 453–57. https://doi.org/10.1038/nmeth.3337.
 
-
-
-
 ## Signatures
 
 - `CellMaker` - cell type-specific markers, human, mouse, single-cell data. Browse and download at http://bio-bigdata.hrbmu.edu.cn/CellMarker/download.jsp, enrichment analysis at  https://yulab-smu.github.io/clusterProfiler-book/chapter3.html#cell-marker
@@ -66,6 +64,12 @@ Mostly cancer-related.
 
 - `63_immune_cells` - Gene expression profiles of 63 immune cell types. https://github.com/mdozmorov/63_immune_cells
  
+## Purity
+
+- `ESTIMATE` - tumor-stroma purity detection. 141 immune and stromal genes. single-sample GSEA analysis. ESTIMATE score as a combination of immune and stromal scores. - R package http://bioinformatics.mdanderson.org/estimate/rpackage.html
+    - Yoshihara, Kosuke, Maria Shahmoradgoli, Emmanuel Martínez, Rahulsimham Vegesna, Hoon Kim, Wandaliz Torres-Garcia, Victor Treviño, et al. “Inferring Tumour Purity and Stromal and Immune Cell Admixture from Expression Data.” Nature Communications 4 (2013): 2612. https://doi.org/10.1038/ncomms3612.
+
+
 
 ## [Data folder](data)
 
