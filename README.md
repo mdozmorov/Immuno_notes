@@ -75,6 +75,8 @@ Mostly cancer-related.
 - `PurityEst` - proportion of somatic mutations, averaged across all chromosomes, to estimate tumor purity. https://odin.mdacc.tmc.edu/~xsu1/PurityEst.html
     - Su, Xiaoping, Li Zhang, Jianping Zhang, Funda Meric-Bernstam, and John N. Weinstein. “PurityEst: Estimating Purity of Human Tumor Samples Using next-Generation Sequencing Data.” Bioinformatics (Oxford, England) 28, no. 17 (September 1, 2012): 2265–66. https://doi.org/10.1093/bioinformatics/bts365.
 
+- `ABSOLUTE` - infers tumor purity, ploidy from SNPs, CNVs. Also detects subclonal heterogeneity. http://archive.broadinstitute.org/cancer/cga/ABSOLUTE
+    - Carter, Scott L., Kristian Cibulskis, Elena Helman, Aaron McKenna, Hui Shen, Travis Zack, Peter W. Laird, et al. “Absolute Quantification of Somatic DNA Alterations in Human Cancer.” Nature Biotechnology 30, no. 5 (May 2012): 413–21. https://doi.org/10.1038/nbt.2203.
 
 ## [Data folder](data)
 
