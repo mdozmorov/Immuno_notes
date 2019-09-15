@@ -72,6 +72,10 @@ Mostly cancer-related.
 - `ISOpureR` - Deconvolution of Tumour Profiles to purify tumor samples. Regression-based, uses purified tumor profile to estimate the proportion of tumor samples. Discussion of overfitting due to overparametrization. https://cran.r-project.org/web/packages/ISOpureR/index.html
     - Quon, Gerald, Syed Haider, Amit G Deshwar, Ang Cui, Paul C Boutros, and Quaid Morris. “Computational Purification of Individual Tumor Gene Expression Profiles Leads to Significant Improvements in Prognostic Prediction.” Genome Medicine 5, no. 3 (2013): 29. https://doi.org/10.1186/gm433.
 
+- `PurityEst` - proportion of somatic mutations, averaged across all chromosomes, to estimate tumor purity. https://odin.mdacc.tmc.edu/~xsu1/PurityEst.html
+    - Su, Xiaoping, Li Zhang, Jianping Zhang, Funda Meric-Bernstam, and John N. Weinstein. “PurityEst: Estimating Purity of Human Tumor Samples Using next-Generation Sequencing Data.” Bioinformatics (Oxford, England) 28, no. 17 (September 1, 2012): 2265–66. https://doi.org/10.1093/bioinformatics/bts365.
+
+
 ## [Data folder](data)
 
 - [BRCA](data/BRCA) - Data from Azizi, Elham, Ambrose J. Carr, George Plitas, Andrew E. Cornish, Catherine Konopacki, Sandhya Prabhakaran, Juozas Nainys, et al. “Single-Cell Immune Map of Breast Carcinoma Reveals Diverse Phenotypic States Driven by the Tumor Microenvironment.” BioRxiv, January 1, 2017. https://doi.org/10.1101/221994. - scRNA-seq of immune cells in BRCA. inDrop single-cell technology. SEQC processing pipeline, Bisquit Bayesian clustering and normalization that removes confounding technical effects. Heterogeneity of immune cell composition, clusters of immune cell subpopulations, covariance among them. Supplementary Material at https://www.biorxiv.org/content/early/2017/11/25/221994.figures-only
