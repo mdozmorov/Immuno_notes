@@ -105,6 +105,8 @@ Mostly cancer-related.
     - `DMAP.txt` - human reference data (Novershtern et al., 2011)
     - `IRIS.txt` - human reference data (Abbas et al., 2005)
 
+- [immune_cell_signature_genes](https://github.com/caleblareau/immune_cell_signature_genes) - Repository for signature genes from Immune Cell Atlas. Also, R code for [Exploratory data analysis of SCSig collection: Signatures of Single Cell Identities](https://gist.github.com/mdozmorov/50aabcb6f5ada0d9068de3f0904b45f7#file-scsig-collection-eda)
+
 - [quanTIseq](data/quanTIseq) - Finotello, Francesca, Clemens Mayer, Christina Plattner, Gerhard Laschober, Dietmar Rieder, Hubert Hackl, Anne Krogsdam, et al. “QuanTIseq: Quantifying Immune Contexture of Human Tumors.” BioRxiv, January 1, 2017. https://doi.org/10.1101/223180. https://www.biorxiv.org/content/early/2017/11/22/223180
     - `223180-4.xlsx` - Immune cell signatures, 170 genes x 10 immune cell types. [Source](https://www.biorxiv.org/highwire/filestream/68173/field_highwire_adjunct_files/3/223180-4.xlsx)
 
