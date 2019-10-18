@@ -41,6 +41,8 @@ Mostly cancer-related.
 - `ImmQuant` - Deconvolution of human/mouse gene expression, output - immune cell proportions. Download from http://csgi.tau.ac.il/ImmQuant/download.html, run as `java -jar ImmQuant.jar`
     - Frishberg, Amit, Avital Brodt, Yael Steuerman, and Irit Gat-Viks. “ImmQuant: A User-Friendly Tool for Inferring Immune Cell-Type Composition from Gene-Expression Data.” Bioinformatics 32, no. 24 (December 15, 2016): 3842–43. https://doi.org/10.1093/bioinformatics/btw535.
 
+- `DeconRNAseq` - deconvolution of RNA-seq datasets into cell proportions using cell signatures. Non-negative decomposition algorithm (X = AS) solved using quadratic programming.  https://bioconductor.org/packages/release/bioc/html/DeconRNASeq.html
+    - Gong, Ting, and Joseph D. Szustakowski. “DeconRNASeq: A Statistical Framework for Deconvolution of Heterogeneous Tissue Samples Based on MRNA-Seq Data.” Bioinformatics (Oxford, England) 29, no. 8 (April 15, 2013): 1083–85. https://doi.org/10.1093/bioinformatics/btt090.
 
 ### Web-based tools
 
