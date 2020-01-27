@@ -131,6 +131,9 @@ Mostly cancer-related.
 
 ## Misc Notes
 
+- `Immuneatlas.org` - differences in immune cell composition and immune responses between humans, mice, and non-human primates. Example - mice have ~10-times fewer neutrophils than all primates, and ~10-times more B cells. Results can be explored at https://immuneatlas.org/#/, data at https://flowrepository.org/id/FR-FCM-Z2ZY
+    - Bjornson-Hooper, Zachary B, Gabriela K Fragiadakis, Matthew H Spitzer, Deepthi Madhireddy, Dave McIlwain, and Garry P Nolan. “A Comprehensive Atlas of Immunological Differences between Humans, Mice and Non-Human Primates.” BioRxiv, March 11, 2019. https://doi.org/10.1101/574160.
+
 - **T cell signature**: CD8A, CCL2, CCL3, CCL4, CXCL9, CXCL10, ICOS, GZMK, IRF1, HLA-DMA, HLA-DMB, HLA-DOA, and HLA-DOB
 - **CTNNB1 score**: mean expression of TCF1, TCF12, MYC, EFNB3, VEGFA, and APC2, to be correlated with CD8b expression
     - Spranger, Stefani, Jason J. Luke, Riyue Bao, Yuanyuan Zha, Kyle M. Hernandez, Yan Li, Alexander P. Gajewski, Jorge Andrade, and Thomas F. Gajewski. “Density of Immunogenic Antigens Does Not Explain the Presence or Absence of the T-Cell-Inflamed Tumor Microenvironment in Melanoma.” Proceedings of the National Academy of Sciences of the United States of America 113, no. 48 (29 2016): E7759–68. https://doi.org/10.1073/pnas.1609376113.
