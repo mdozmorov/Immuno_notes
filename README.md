@@ -26,6 +26,8 @@ Mostly cancer-related.
 
 ### Stand-alone tools
 
+- `immunedeconv` - A unified interface to immune deconvolution methods (CIBERSORT, EPIC, quanTIseq, TIMER, xCell, MCPcounter) https://icbi-lab.github.io/immunedeconv, https://github.com/icbi-lab/immunedeconv
+
 - `MIXTURE` - an R package and a Shiny app to deconvolve cell proportions, Based on Support Vector Regression with a noise-constrained recursive feature selection. Compared with ABBAS, ABIS, CIBERSORT, DTANGLE, it detects less cell types, avoids overestimation of noisy detections. https://github.com/elmerfer/MIXTURE.App
     - Fernandez, Elmer, Yamil D Mahmoud, Florencia Veigas, Dario Rocha, Monica Balzarini, Hugo D Lujan, Gabriel A Rabinovich, and Maria Romina Girotti. “MIXTURE: An Improved Algorithm for Immune Tumor Microenvironment Estimation Based on Gene Expression Data.” BioRxiv, August 7, 2019. https://doi.org/10.1101/726562.
 
