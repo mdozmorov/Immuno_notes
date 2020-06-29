@@ -40,6 +40,9 @@ Mostly cancer-related.
 - `MethylCIBERSORT` - methylation-based cell type deconvolution, using CIBERSORT model, reformatting methylation matrices for it. https://zenodo.org/record/1298968#.W9-iaHpKj-Y
     - Chakravarthy, Ankur, Andrew Furness, Kroopa Joshi, Ehsan Ghorani, Kirsty Ford, Matthew J. Ward, Emma V. King, et al. “Pan-Cancer Deconvolution of Tumour Composition Using DNA Methylation.” Nature Communications 9, no. 1 (December 2018). https://doi.org/10.1038/s41467-018-05570-1.
 
+- [CDSeq](https://github.com/kkang7/CDSeq) - Complete Deconvolution of cell proportions using bulk RNA-seq only, without prior knowledge of cell type-specific profiles, only need the number of cells. Uses Latent Dirichlet Annotation, extends it to account for gene length and differences of RNA per cell if cell sizes differ. Similar to deriving abstract but meaningful topics from text. Compared with CIBERSORT, csSAM using synthetic and experimental datasets with known proportions. MATLAB implementation, https://github.com/kkang7/CDSeq
+    - Kang, Kai, Qian Meng, Igor Shats, David M. Umbach, Melissa Li, Yuanyuan Li, Xiaoling Li, and Leping Li. “[A Novel Computational Complete Deconvolution Method Using RNA-Seq Data](https://doi.org/10.1101/496596).” BioRxiv, January 1, 2018
+
 - `ImmQuant` - Deconvolution of human/mouse gene expression, output - immune cell proportions. Download from http://csgi.tau.ac.il/ImmQuant/download.html, run as `java -jar ImmQuant.jar`
     - Frishberg, Amit, Avital Brodt, Yael Steuerman, and Irit Gat-Viks. “ImmQuant: A User-Friendly Tool for Inferring Immune Cell-Type Composition from Gene-Expression Data.” Bioinformatics 32, no. 24 (December 15, 2016): 3842–43. https://doi.org/10.1093/bioinformatics/btw535.
 
