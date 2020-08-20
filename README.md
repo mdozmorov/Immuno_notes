@@ -1,14 +1,22 @@
 # Notes on Immunology-related tools and databases
 
-Mostly cancer-related.
+Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
 
-* [Deconvolution](#deconvolution)
-  * [Stand-alone tools](#stand-alone-tools)
-  * [Web-based tools](#web-based-tools)
-* [Signatures](#signatures)
-* [Purity](#purity)
-* [Data folder](#data-folder)
-* [Misc Notes](#misc-notes)
+# Table of content
+
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [Deconvolution](#deconvolution)
+  - [Stand-alone tools](#stand-alone-tools)
+  - [Web-based tools](#web-based-tools)
+- [Signatures](#signatures)
+- [Purity](#purity)
+- [Data folder](#data-folder)
+- [Misc Notes](#misc-notes)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## Deconvolution
 
