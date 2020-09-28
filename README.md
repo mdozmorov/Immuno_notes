@@ -74,6 +74,8 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 
 ## Signatures
 
+- [CellMarker](http://biocc.hrbmu.edu.cn/CellMarker/)
+
 - Assessment of predictive biomarkers for immuno-checkpoint inhibitor response. ImmunoPhenoScore, IFNgamma signature don't perform well. Table 3 - gene lists for immune signatures. Data (FPKM values) https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78220, code https://gitlab.com/bioinfo-ire-release/ici-biomarker-review/-/tree/master/
     - Pallocca, Matteo, Davide Angeli, Fabio Palombo, Francesca Sperati, Michele Milella, Frauke Goeman, Francesca De Nicola, et al. “Combinations of Immuno-Checkpoint Inhibitors Predictive Biomarkers Only Marginally Improve Their Individual Accuracy.” Journal of Translational Medicine 17, no. 1 (December 2019): 131. https://doi.org/10.1186/s12967-019-1865-8.
 
