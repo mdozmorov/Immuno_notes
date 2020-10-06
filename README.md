@@ -74,6 +74,8 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 
 ## Signatures
 
+- [CancerSEA](http://biocc.hrbmu.edu.cn/CancerSEA/home.jsp) - cancer scRNA-seq studies. Download individual studies, as well as gene signatures (from Angiogenesis, DNA damage to EMT, metastasis, etc.)
+
 - [CellMarker](http://biocc.hrbmu.edu.cn/CellMarker/)
 
 - Assessment of predictive biomarkers for immuno-checkpoint inhibitor response. ImmunoPhenoScore, IFNgamma signature don't perform well. Table 3 - gene lists for immune signatures. Data (FPKM values) https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78220, code https://gitlab.com/bioinfo-ire-release/ici-biomarker-review/-/tree/master/
