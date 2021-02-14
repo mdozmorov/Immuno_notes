@@ -25,6 +25,9 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 - Review and benchmarking of 7 immune deconvolution tools. Table 1 - overview of deconvolution methods, Table 2 - recommendations for different immune cell types. Using mix of gene expression from known proportions and types of single cells, mean expression. Access to the methods is implemented in  https://grst.github.io/immunedeconv/
     - Sturm, Gregor, Francesca Finotello, Florent Petitprez, Jitao David Zhang, Jan Baumbach, Wolf H Fridman, Markus List, and Tatsiana Aneichyk. “Comprehensive Evaluation of Computational Cell-Type Quantification Methods for Immuno-Oncology.” BioRxiv, January 27, 2019. https://doi.org/10.1101/463828. 
 
+- [xCell](https://xcell.ucsf.edu/) - bulk gene expression deconvolution into 64 immune and stromal cell types. Cell signatures (6573 genes) were generated from 1822 pure human cell type transcriptomes (six sources). Single-sample GSEA, spillover compensation between closely related cell types. Precalculated xCell scores are available for 9947 samples from TCGA and TARGET. Input - any length-normalized gene expression (FPKM, TPM, RSEM). [Additional files](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1349-1#Sec24) include gene signatures, TCGA/TARGET xCell scores. 
+    - Aran, Dvir. “[XCell: Digitally Portraying the Tissue Cellular Heterogeneity Landscape](https://doi.org/10.1186/s13059-017-1349-1),” November 15, 2017
+
 - Deconvolution using methylation profiles. Reference-free and reference-based. Table 1 overview of published methods. Description of Houseman algorithm, CIBERSORT. Problems with reference signatures. SVA performs well. Methylation is highly tissue-specific.
     - Teschendorff, Andrew E, and Shijie C Zheng. “Cell-Type Deconvolution in Epigenome-Wide Association Studies: A Review and Recommendations.” Epigenomics, March 14, 2017. https://doi.org/10.2217/epi-2016-0153. 
 
