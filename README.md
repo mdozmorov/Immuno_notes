@@ -156,8 +156,15 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 
 ## Misc Notes
 
-- `Immuneatlas.org` - differences in immune cell composition and immune responses between humans, mice, and non-human primates. Example - mice have ~10-times fewer neutrophils than all primates, and ~10-times more B cells. Results can be explored at https://immuneatlas.org/#/, data at https://flowrepository.org/id/FR-FCM-Z2ZY
-    - Bjornson-Hooper, Zachary B, Gabriela K Fragiadakis, Matthew H Spitzer, Deepthi Madhireddy, Dave McIlwain, and Garry P Nolan. “A Comprehensive Atlas of Immunological Differences between Humans, Mice and Non-Human Primates.” BioRxiv, March 11, 2019. https://doi.org/10.1101/574160.
+- `Immuneatlas.org` - differences in immune cell composition and immune responses between humans, mice, and non-human primates. Example - mice have ~10-times fewer neutrophils than all primates, and ~10-times more B cells. [Results](https://immuneatlas.org/#/), [data](https://flowrepository.org/id/FR-FCM-Z2ZY). <details>
+    <summary>Paper</summary>
+    Bjornson-Hooper, Zachary B, Gabriela K Fragiadakis, Matthew H Spitzer, Deepthi Madhireddy, Dave McIlwain, and Garry P Nolan. “A Comprehensive Atlas of Immunological Differences between Humans, Mice and Non-Human Primates.” BioRxiv, March 11, 2019. https://doi.org/10.1101/574160.
+</details>
+
+- [OptiType](https://github.com/FRED-2/OptiType) - an HLA genotyping algorithm from any sequencing data. Based on integer linear programming. Based on the assumption that the correct HLA genotype explains the highest number of mapped reads. Reads are mapped against an HLA allele reference, a binary matrix is created for which alleles a specific read could be aligned to with the least mismatches, an integer linear program maximizes the number of mapped reads that can be explained by the predicted genotype. 97% accuracy. Other tools - HLAminer, seq2HLA, ATHLATES, HLAforest. Python implementation. <details>
+    <summary>Paper</summary>
+    Szolek, András, Benjamin Schubert, Christopher Mohr, Marc Sturm, Magdalena Feldhahn, and Oliver Kohlbacher. “OptiType: Precision HLA Typing from next-Generation Sequencing Data.” Bioinformatics (Oxford, England) 30, no. 23 (December 1, 2014): 3310–16. https://doi.org/10.1093/bioinformatics/btu548.
+</details>
 
 - **T cell signature**: CD8A, CCL2, CCL3, CCL4, CXCL9, CXCL10, ICOS, GZMK, IRF1, HLA-DMA, HLA-DMB, HLA-DOA, and HLA-DOB
 - **CTNNB1 score**: mean expression of TCF1, TCF12, MYC, EFNB3, VEGFA, and APC2, to be correlated with CD8b expression
