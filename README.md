@@ -13,7 +13,7 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 - [Deconvolution](#deconvolution)
   - [Stand-alone tools](#stand-alone-tools)
   - [Web-based tools](#web-based-tools)
-- [Signatures](#signatures)
+- [Immune markers](#immune-markers)
 - [Purity](#purity)
 - [Data folder](#data-folder)
 - [Misc Notes](#misc-notes)
@@ -75,30 +75,26 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 - `CIBERSORT` - cell type identification. Support Vector Regression. Excellent methods description. Non-log-linear space. p-value for the overall goodness of deconvolution (H0 - no cell types are present in a given gene expression profile), also Pearson and RMSE for estimating goodness of fit. References to datasets for benchmarking. https://cibersort.stanford.edu/index.php
     - Newman, Aaron M., Chih Long Liu, Michael R. Green, Andrew J. Gentles, Weiguo Feng, Yue Xu, Chuong D. Hoang, Maximilian Diehn, and Ash A. Alizadeh. “Robust Enumeration of Cell Subsets from Tissue Expression Profiles.” Nature Methods 12, no. 5 (May 2015): 453–57. https://doi.org/10.1038/nmeth.3337.
 
-## Signatures
+## Immune markers
 
-- [CancerSEA](http://biocc.hrbmu.edu.cn/CancerSEA/home.jsp) - cancer scRNA-seq studies. Download individual studies, as well as gene signatures (from Angiogenesis, DNA damage to EMT, metastasis, etc.)
+- [10K immunomes project](http://10kimmunomes.org/) - immunology reference dataset from 83 studies, 10 data types (CyTOF, proteomics, gene expression, others). Formatted (standard units of measurement) and normalized (batch-corrected, ComBat) data for visualization and download. <details>
+    <summary>Paper</summary>
+    Kelly A. Zalocusky et al., “The 10,000 Immunomes Project: Building a Resource for Human Immunology,” Cell Reports 25, no. 2 (October 2018): 513-522.e3, https://doi.org/10.1016/j.celrep.2018.09.021.
+</details>
 
-- [CellMarker](http://biocc.hrbmu.edu.cn/CellMarker/)
+- [63_immune_cells](https://github.com/mdozmorov/63_immune_cells) - Gene expression profiles of 63 immune cell types. From Bonnal RJP, Ranzani V, Arrigoni A, Curti S, Panzeri I, Gruarin P, Abrignani S, Rossetti G, Pagani M: [De novo transcriptome profiling of highly purified human lymphocytes primary cells](http://www.ncbi.nlm.nih.gov/pubmed/26451251). Sci Data 2015, 2:150051.
 
-- Assessment of predictive biomarkers for immuno-checkpoint inhibitor response. ImmunoPhenoScore, IFNgamma signature don't perform well. Table 3 - gene lists for immune signatures. Data (FPKM values) https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE78220, code https://gitlab.com/bioinfo-ire-release/ici-biomarker-review/-/tree/master/
-    - Pallocca, Matteo, Davide Angeli, Fabio Palombo, Francesca Sperati, Michele Milella, Frauke Goeman, Francesca De Nicola, et al. “Combinations of Immuno-Checkpoint Inhibitors Predictive Biomarkers Only Marginally Improve Their Individual Accuracy.” Journal of Translational Medicine 17, no. 1 (December 2019): 131. https://doi.org/10.1186/s12967-019-1865-8.
+- [Database of Immune Cell Expression (DICE)](https://dice-database.org/) - cis-interactome project, promoter-interacting eQTLs in five immune cell types, their target genes. H3K27ac HiChIP and promoter-capture Hi-C data (FitHiChIP analysis, two background models). Many eQTLs are long-distance (median distance 120-235kb, better captured by HiChIP), significantly enriched for disease-associated variants. \~40% of promoters interact with other promoters. [Supplementary tables](https://www.nature.com/articles/s41588-020-00745-3#Sec30) - hg19 genomic coordinates of H3K27ac in different cell types, summary of promoter interactions (H3K27ac HiChIP), promoter-interacting eQTLs (pieQTLs) in different cell types. [GitHub](https://github.com/ay-lab/pieQTL_NG). <details>
+    <summary>Paper</summary>
+    Chandra, Vivek, Sourya Bhattacharyya, Benjamin J. Schmiedel, Ariel Madrigal, Cristian Gonzalez-Colin, Stephanie Fotsing, Austin Crinklaw, et al. “Promoter-Interacting Expression Quantitative Trait Loci Are Enriched for Functional Genetic Variants.” Nature Genetics, December 21, 2020. https://doi.org/10.1038/s41588-020-00745-3.
+</details>
 
-- `CellMaker` - cell type-specific markers, human, mouse, single-cell data. Browse and download at http://bio-bigdata.hrbmu.edu.cn/CellMarker/download.jsp, enrichment analysis at  https://yulab-smu.github.io/clusterProfiler-book/chapter3.html#cell-marker
-    - Zhang, Xinxin, Yujia Lan, Jinyuan Xu, Fei Quan, Erjie Zhao, Chunyu Deng, Tao Luo, et al. “CellMarker: A Manually Curated Resource of Cell Markers in Human and Mouse.” Nucleic Acids Research 47, no. D1 (January 8, 2019): D721–28. https://doi.org/10.1093/nar/gky900.
+- [Haemopedia](https://www.haemosphere.org) - a database of blood cell gene expression profiles from human (12 types) and mouse (57 types) hematopoietic cells. Includes Immgen and other studies. [Search](https://www.haemosphere.org/searches) for gene expression profiles, correlated genes. Connecting cells into hierarchy using minimum spanning trees. [Download](https://www.haemosphere.org/datasets/show). <details>
+    <summary>Paper</summary>
+    Choi, Jarny, Tracey M. Baldwin, Mae Wong, Jessica E. Bolden, Kirsten A. Fairfax, Erin C. Lucas, Rebecca Cole et al. "Haemopedia RNA-seq: a database of gene expression during haematopoiesis in mice and humans." Nucleic Acids Research 47, no. D1 (08 January 2019): D780-D785. https://doi.org/10.1093/nar/gky1020
+    Graaf, Carolyn A. de, Jarny Choi, Tracey M. Baldwin, Jessica E. Bolden, Kirsten A. Fairfax, Aaron J. Robinson, Christine Biben, et al. “Haemopedia: An Expression Atlas of Murine Hematopoietic Cells.” Stem Cell Reports, August 3, 2016. https://doi.org/10.1016/j.stemcr.2016.07.007.
+</details>
 
-- `10K immunomes project` - immunology reference dataset from 83 studies, 10 data types (CyTOF, proteomics, gene expression, others). Formatted (standard units of measurement) and normalized (batch-corrected, ComBat) data for visualization and download. http://10kimmunomes.org/
-    - Kelly A. Zalocusky et al., “The 10,000 Immunomes Project: Building a Resource for Human Immunology,” Cell Reports 25, no. 2 (October 2018): 513-522.e3, https://doi.org/10.1016/j.celrep.2018.09.021.
-
-- Brain immune atlas scRNA-seq resource. Border-associated macrophages from discrete mouse brain compartments, tissue-specific transcriptional signatures. http://www.brainimmuneatlas.org/index.php, https://github.com/saeyslab/brainimmuneatlas/
-    - Van Hove, Hannah, Liesbet Martens, Isabelle Scheyltjens, Karen De Vlaminck, Ana Rita Pombo Antunes, Sofie De Prijck, Niels Vandamme, et al. “A Single-Cell Atlas of Mouse Brain Macrophages Reveals Unique Transcriptional Identities Shaped by Ontogeny and Tissue Environment.” Nature Neuroscience, May 6, 2019. https://doi.org/10.1038/s41593-019-0393-4.
-
-- `DICE` - Database of Immune Cell eQTLs, Expression, Epigenomics. https://dice-database.org/
-
-- `Haemosphere` - mostly murine immune cell signatures, downloadable data. http://haemosphere.org/datasets/show
-
-- `63_immune_cells` - Gene expression profiles of 63 immune cell types. https://github.com/mdozmorov/63_immune_cells
- 
 ## Purity
 
 - `ESTIMATE` - tumor-stroma purity detection. 141 immune and stromal genes. single-sample GSEA analysis. ESTIMATE score as a combination of immune and stromal scores. - R package http://bioinformatics.mdanderson.org/estimate/rpackage.html
