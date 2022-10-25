@@ -69,6 +69,11 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 
 - `TCIA` - The Cancer Immunome Atlas, https://tcia.at/home. Immunophenograms, cell type fraction table of TCGA samples. Survival analysis based on immune cell signatures. All analyses are on TCGA data.
 
+- [scTIME portal](http://sctime.sklehabc.com/unicellular/home) - Single-cell pan-cancer Tumor-Immune Microenvironments database and analysis portal. Improved cell type classification, ligand-receptor network, correlating gene expression and immune cell fractions, visualization. <details>
+    <summary>Paper</summary>
+    Hong, Fang, Qianqian Meng, Weiyu Zhang, Ruiqin Zheng, Xiaoyun Li, Tao Cheng, Deqing Hu, and Xin Gao. “Single-Cell Analysis of the Pan-Cancer Immune Microenvironment and ScTIME Portal.” Cancer Immunology Research 9, no. 8 (August 2021): 939–51. https://doi.org/10.1158/2326-6066.CIR-20-1026.
+</details>
+
 - `TIMER` - immune cell-oriented exploration of TCGA cancers. prehensive resource for systematical analysis of immune infiltrates across diverse cancer types. Exploring the abundances of six immune infiltrates (B cells, CD4+ T cells, CD8+ T cells, Neutrphils, Macrophages and Dendritic cells) with gene expression, survival, mutations, copy number variants and more. Six analysis modules: Gene correlation with immune cell proportions, immune proportions and survival, and mutations, and somatic copy number alterations, simple boxplot expression of a gene across all cancer/normal samples, correlation between two genes adjusted for tumor purity or age, deconvolution of user-provided gene expression, estimation of immune proportions in all TCGA samples. https://cistrome.shinyapps.io/timer/. Video tutorial at https://youtu.be/94v8XboCrXU
     - Li, Taiwen, Jingyu Fan, Binbin Wang, Nicole Traugh, Qianming Chen, Jun S. Liu, Bo Li, and X. Shirley Liu. “TIMER: A Web Server for Comprehensive Analysis of Tumor-Infiltrating Immune Cells.” Cancer Research 77, no. 21 (November 1, 2017): e108–10. https://doi.org/10.1158/0008-5472.CAN-17-0307. 
 
@@ -128,7 +133,7 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
     - `DMAP.txt` - human reference data (Novershtern et al., 2011)
     - `IRIS.txt` - human reference data (Abbas et al., 2005)
 
-- [immune_cell_signature_genes](https://github.com/caleblareau/immune_cell_signature_genes) - Repository for signature genes from Immune Cell Atlas. Also, R code for [Exploratory data analysis of SCSig collection: Signatures of Single Cell Identities](https://gist.github.com/mdozmorov/50aabcb6f5ada0d9068de3f0904b45f7#file-scsig-collection-eda)
+- [immune_cell_signature_genes](https://github.com/caleblareau/immune_cell_signature_genes) - Repository for signature genes from Immune Cell Atlas. Also, R code for [Exploratory data analysis of SCSig collection: Signatures of Single Cell Identities](https://gist.github.com/mdozmorov/50aabcb6f5ada0d9068de3f0904b45f7#file-scsig-collection-eda), by Caleb Lareau.
 
 - [quanTIseq](data/quanTIseq) - Finotello, Francesca, Clemens Mayer, Christina Plattner, Gerhard Laschober, Dietmar Rieder, Hubert Hackl, Anne Krogsdam, et al. “QuanTIseq: Quantifying Immune Contexture of Human Tumors.” BioRxiv, January 1, 2017. https://doi.org/10.1101/223180. https://www.biorxiv.org/content/early/2017/11/22/223180
     - `223180-4.xlsx` - Immune cell signatures, 170 genes x 10 immune cell types. [Source](https://www.biorxiv.org/highwire/filestream/68173/field_highwire_adjunct_files/3/223180-4.xlsx)
@@ -140,6 +145,8 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
     - Monaco, Gianni, Bernett Lee, Weili Xu, Seri Mustafah, You Yi Hwang, Christophe Carré, Nicolas Burdin, et al. “RNA-Seq Signatures Normalized by MRNA Abundance Allow Absolute Deconvolution of Human Immune Cell Types.” Cell Reports 26, no. 6 (February 2019): 1627-1640.e7. https://doi.org/10.1016/j.celrep.2019.01.041. - Expression signatures of 29 immune subsets (FACS sorted). Modules of co-expressed, housekeeping genes (Table S3). Their robust normalization method (RLM) better suited for normalizing heterogeneous cell populations. Deconvolution for PBMC transcriptomic data. RNA-seq (ABIS-seq, 1296 genes) and microarray (ABIS-microarray, 819 genes) deconvolution panels. Outperforms five other methods (LM, non-negative LM, RLM, QP, CIBERSORT).TPM download at https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE107011. 
 
 - `EINAV_INTERFERON_SIGNATURE_IN_CANCER.txt` - A gene expression signature found in a subset of cancer patients suggestive of a deregulated immune or inflammatory response. [Source](http://software.broadinstitute.org/gsea/msigdb/geneset_page.jsp?geneSetName=EINAV_INTERFERON_SIGNATURE_IN_CANCER)
+
+- `Hong_et_al_2021_TableS2.xlsx` - T NK, Macrophage marker genes, all cell types (clusters) marker genes. From Hong, Fang, Qianqian Meng, Weiyu Zhang, Ruiqin Zheng, Xiaoyun Li, Tao Cheng, Deqing Hu, and Xin Gao. “Single-Cell Analysis of the Pan-Cancer Immune Microenvironment and ScTIME Portal.” Cancer Immunology Research 9, no. 8 (August 2021): 939–51. https://doi.org/10.1158/2326-6066.CIR-20-1026
 
 - `Immune_signatures.xlsx` - List of gene signatures for "Treg", "CD8 T Cell Activation", "Anti-inflammatory", "Anergy", "Pro inflammatory", "Lipid mediators", "Glycolysis", "TCA cycle", "Pentose Phosphate Pathway", "Glycogen Metabolism", "Glucose Deprivation", "M1 Macrophage Polarization", "M2 Macrophage Polarization", "Cytolytics effector pathway", "Type I Interferon response", "Type II Interferon Response", "Hypoxia/HIF regulated", "TCell Terminal Differentiation", "G1/S", "G2/M". Sheets 2 and 3 - macrophage M1 and M2 (suppressive) signatures. Table S4 from [https://doi.org/10.1016/j.cell.2018.05.060](https://www.sciencedirect.com/science/article/pii/S0092867418307232). 
 
