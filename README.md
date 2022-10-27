@@ -22,6 +22,11 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 
 ## Deconvolution
 
+- Review of immune cell deconvolution methods from bulk RNA-seq data. Table 1 - list and links to deconbolution tools (TIminer, xCELL, MCP-counter, DeconRNASeq, PERT, CIBERSORT, TIMER, EPIC, quantTIseq, deconf, ssKL, ssFrobenius, DSA, MMAD). Detailed description of each. <details>
+    <summary>Paper</summary>
+    Finotello, Francesca, and Zlatko Trajanoski. “Quantifying Tumor-Infiltrating Immune Cells from Transcriptomics Data.” Cancer Immunology, Immunotherapy: CII 67, no. 7 (2018): 1031–40. https://doi.org/10.1007/s00262-018-2150-z.
+</details>
+
 - [immunedeconv](https://grst.github.io/immunedeconv/) - an R package and a review and benchmarking of 7 immune deconvolution tools. Table 1 - overview of deconvolution methods, Table 2 - recommendations for different immune cell types. Using mix of gene expression from known proportions and types of single cells, mean expression. 
     - Sturm, Gregor, Francesca Finotello, Florent Petitprez, Jitao David Zhang, Jan Baumbach, Wolf H Fridman, Markus List, and Tatsiana Aneichyk. “[Comprehensive Evaluation of Transcriptome-Based Cell-Type Quantification Methods for Immuno-Oncology](https://doi.org/10.1093/bioinformatics/btz363).” Bioinformatics, (July 15, 2019)
 
