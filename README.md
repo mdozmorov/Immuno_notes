@@ -30,6 +30,11 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 - [immunedeconv](https://grst.github.io/immunedeconv/) - an R package and a review and benchmarking of 7 immune deconvolution tools. Table 1 - overview of deconvolution methods, Table 2 - recommendations for different immune cell types. Using mix of gene expression from known proportions and types of single cells, mean expression. 
     - Sturm, Gregor, Francesca Finotello, Florent Petitprez, Jitao David Zhang, Jan Baumbach, Wolf H Fridman, Markus List, and Tatsiana Aneichyk. “[Comprehensive Evaluation of Transcriptome-Based Cell-Type Quantification Methods for Immuno-Oncology](https://doi.org/10.1093/bioinformatics/btz363).” Bioinformatics, (July 15, 2019)
 
+- [DWLS](https://bitbucket.org/yuanlab/dwls/src/master/) - dampened weighted least squares approach for cell-type deconvolution of bulk RNA-seq data from scRNA-seq-derived cell-type signatures. Accounts for average gene expression, downweights low expressed genes in deconvolution. More accurate for rare cell types, compared with v-support vector regression, quadratic programming on 27 simulated bulk datasets and four real mouse datasets using the Mouse Cell Atlas for scRNA-seq signatures. Two performance evaluation metrics. R package. <details>
+    <summary>Paper</summary>
+    Tsoucas, Daphne, Rui Dong, Haide Chen, Qian Zhu, Guoji Guo, and Guo-Cheng Yuan. “Accurate Estimation of Cell-Type Composition from Gene Expression Data.” Nature Communications 10, no. 1 (December 2019). https://doi.org/10.1038/s41467-019-10802-z.
+</details>
+
 - [xCell](https://xcell.ucsf.edu/) - bulk gene expression deconvolution into 64 immune and stromal cell types. Cell signatures (6573 genes) were generated from 1822 pure human cell type transcriptomes (six sources). Single-sample GSEA, spillover compensation between closely related cell types. Precalculated xCell scores are available for 9947 samples from TCGA and TARGET. Input - any length-normalized gene expression (FPKM, TPM, RSEM). [Additional files](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-017-1349-1#Sec24) include gene signatures, TCGA/TARGET xCell scores. 
     - Aran, Dvir. “[XCell: Digitally Portraying the Tissue Cellular Heterogeneity Landscape](https://doi.org/10.1186/s13059-017-1349-1),” November 15, 2017
 
@@ -104,6 +109,8 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
     Choi, Jarny, Tracey M. Baldwin, Mae Wong, Jessica E. Bolden, Kirsten A. Fairfax, Erin C. Lucas, Rebecca Cole et al. "Haemopedia RNA-seq: a database of gene expression during haematopoiesis in mice and humans." Nucleic Acids Research 47, no. D1 (08 January 2019): D780-D785. https://doi.org/10.1093/nar/gky1020
     Graaf, Carolyn A. de, Jarny Choi, Tracey M. Baldwin, Jessica E. Bolden, Kirsten A. Fairfax, Aaron J. Robinson, Christine Biben, et al. “Haemopedia: An Expression Atlas of Murine Hematopoietic Cells.” Stem Cell Reports, August 3, 2016. https://doi.org/10.1016/j.stemcr.2016.07.007.
 </details>
+
+- The cytotoxic gene list consists of 12 genes that translate to effector cytotoxic proteins (GZMA, GZMB, GZMH, GZMK, GZMM, GNLY, PRF1 and FASLG) and well-described cytotoxic T cell activation markers (IFNG, TNF, IL2R and IL2). [Source](https://doi.org/10.1038/s41588-021-00911-1)
 
 ## Purity
 
