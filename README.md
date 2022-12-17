@@ -104,6 +104,11 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
     Chandra, Vivek, Sourya Bhattacharyya, Benjamin J. Schmiedel, Ariel Madrigal, Cristian Gonzalez-Colin, Stephanie Fotsing, Austin Crinklaw, et al. “Promoter-Interacting Expression Quantitative Trait Loci Are Enriched for Functional Genetic Variants.” Nature Genetics, December 21, 2020. https://doi.org/10.1038/s41588-020-00745-3.
 </details>
 
+- Tumor-associated macrophage (TAM) gene signature (Breast and Endometrial cancers), associated with poor clinical outcome. SIGLEC1 and CCL8 are markers of TAMs. [Supplementary material](https://www.cell.com/cancer-cell/fulltext/S1535-6108(19)30104-7#supplementaryMaterial), Table S1 - Differentially expressed genes between normal monocytes (Mo) and tumor-educated monocytes (TEMo). Table S2 - Genes between TAMs and residential macrophages (RMs), M1 and M2 macrophage signatures.  Table S3 - immune, TAM, macrophage gene lists. <details>
+    <summary>Paper</summary>
+    Cassetta, Luca, Stamatina Fragkogianni, Andrew H. Sims, Agnieszka Swierczak, Lesley M. Forrester, Hui Zhang, Daniel Y.H. Soong, et al. “Human Tumor-Associated Macrophage and Monocyte Transcriptional Landscapes Reveal Cancer-Specific Reprogramming, Biomarkers, and Therapeutic Targets.” Cancer Cell 35, no. 4 (April 2019): 588-602.e10. https://doi.org/10.1016/j.ccell.2019.02.009.
+</details>
+
 - [Haemopedia](https://www.haemosphere.org) - a database of blood cell gene expression profiles from human (12 types) and mouse (57 types) hematopoietic cells. Includes Immgen and other studies. [Search](https://www.haemosphere.org/searches) for gene expression profiles, correlated genes. Connecting cells into hierarchy using minimum spanning trees. [Download](https://www.haemosphere.org/datasets/show). <details>
     <summary>Paper</summary>
     Choi, Jarny, Tracey M. Baldwin, Mae Wong, Jessica E. Bolden, Kirsten A. Fairfax, Erin C. Lucas, Rebecca Cole et al. "Haemopedia RNA-seq: a database of gene expression during haematopoiesis in mice and humans." Nucleic Acids Research 47, no. D1 (08 January 2019): D780-D785. https://doi.org/10.1093/nar/gky1020
