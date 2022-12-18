@@ -22,6 +22,11 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 
 ## Deconvolution
 
+- Benchmarking six cell type-specific differential expression analysis methods (CellDMC, CARseq, TOAST, LRCDE, CeDAR and TCA), together with two classical methods, csSAM and DESeq2 (Table 1 - summary of methods). Evaluating the effect of baseline expression levels, sample sizes, cell type compositions, expression level alterations, technical noises and biological dispersions - these parameters strongly affect performance. TOAST and LRCDE share the highest number of cell type-specific consensus differentially expressed genes. CARseq, TOAST, CellDMC and TCA are the most reliable methods in terms of precision and sensitivity. <details>
+    <summary>Paper</summary>
+    Meng, Guanqun, Wen Tang, Emina Huang, Ziyi Li, and Hao Feng. “A Comprehensive Assessment of Cell Type-Specific Differential Expression Methods in Bulk Data.” Briefings in Bioinformatics, December 6, 2022, bbac516. https://doi.org/10.1093/bib/bbac516.
+</details>
+
 - Review of immune cell deconvolution methods from bulk RNA-seq data. Table 1 - list and links to deconbolution tools (TIminer, xCELL, MCP-counter, DeconRNASeq, PERT, CIBERSORT, TIMER, EPIC, quantTIseq, deconf, ssKL, ssFrobenius, DSA, MMAD). Detailed description of each. <details>
     <summary>Paper</summary>
     Finotello, Francesca, and Zlatko Trajanoski. “Quantifying Tumor-Infiltrating Immune Cells from Transcriptomics Data.” Cancer Immunology, Immunotherapy: CII 67, no. 7 (2018): 1031–40. https://doi.org/10.1007/s00262-018-2150-z.
