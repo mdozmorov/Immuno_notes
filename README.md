@@ -102,6 +102,11 @@ Mostly cancer-related. Please, [contribute and get in touch](CONTRIBUTING.md)! S
 
 ## Immune markers
 
+- [HLA analysis tutorial](https://github.com/immunogenomics/HLA_analyses_tutorial) - Introduction into the MHC locus structure (three subclasses), location and structure of HLA genes. [International Immunogenomics database](https://www.ebi.ac.uk/ipd/imgt/hla/), HLA 4-field nomenclature. Available HLA imputation panels (Table 2, SNP2HLS, HLA-TAPAS, HIBAG, HLAIMP), new Multi-ancestry reference panel (admixed African, East Asian, European and Latino populations). Imputation recommendations, from per-individual and per-variant QC to tools (SNP2HLA, [Michigan Imputation Server](https://imputationserver.sph.umich.edu/index.html#!)). Association tests between HLA genotype and human traits. <details>
+    <summary>Paper</summary>
+    Sakaue, Saori, Saisriram Gurajala, Michelle Curtis, Yang Luo, Wanson Choi, Kazuyoshi Ishigaki, Joyce B. Kang, et al. “Tutorial: A Statistical Genetics Guide to Identifying HLA Alleles Driving Complex Disease.” Nature Protocols 18, no. 9 (September 2023): 2625–41. https://doi.org/10.1038/s41596-023-00853-4.
+</details>
+
 - [10K immunomes project](http://10kimmunomes.org/) - immunology reference dataset from 83 studies, 10 data types (CyTOF, proteomics, gene expression, others). Formatted (standard units of measurement) and normalized (batch-corrected, ComBat) data for visualization and download. <details>
     <summary>Paper</summary>
     Kelly A. Zalocusky et al., “The 10,000 Immunomes Project: Building a Resource for Human Immunology,” Cell Reports 25, no. 2 (October 2018): 513-522.e3, https://doi.org/10.1016/j.celrep.2018.09.021.
